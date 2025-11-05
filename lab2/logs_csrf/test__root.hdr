@@ -1,0 +1,12 @@
+HTTP 200
+Date: Tue, 30 Sep 2025 02:28:04 GMT
+Server: Apache/2.4.25 (Debian)
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1453
+Keep-Alive: timeout=5, max=55
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8

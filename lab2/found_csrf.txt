@@ -1,0 +1,3 @@
+admin:password # welcome_text
+pablo:letmein # welcome_text
+smithy:password # welcome_text

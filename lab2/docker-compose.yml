@@ -1,0 +1,24 @@
+
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa
+    restart: unless-stopped
+    ports:
+      - "8080:80"       # Redirige puerto 80 del contenedor al puerto 8080 del host
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_DATABASE=dvwa
+  db:
+    image: mysql:5.7
+    container_name: dvwa_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dvwa
+    volumes:
+      - db_data:/var/lib/mysql
+volumes:
+  db_data:

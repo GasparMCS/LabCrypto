@@ -1,0 +1,11 @@
+HTTP 302
+Date: Tue, 30 Sep 2025 02:20:37 GMT
+Server: Apache/2.4.25 (Debian)
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: ../../login.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=83
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
